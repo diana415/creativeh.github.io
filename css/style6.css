@@ -1,0 +1,181 @@
+.top{ 
+	height: 20px;
+   background: #ffffff;
+}
+body {
+	background: url(1.png);
+	color: rgb(156, 144, 75);
+	background-attachment: fixed;
+}
+.button {
+	margin: 130px;
+	font-weight: 900;
+	color: rgb(151, 147, 85);
+	text-decoration: none;
+	padding: .8em 4em calc(.8em + 4px);
+	border-radius: 3px;
+	background: rgb(251, 253, 252);
+	box-shadow: 0 -3px rgba(192, 194, 193, 0.856) inset;
+	transition: 0.2s;
+  } 
+  .button:hover { background: rgb(247, 252, 218); }
+  .button:active {
+	background: rgb(236, 230, 135);
+	box-shadow: 0 3px rgb(231, 228, 144) inset;
+  }
+  .button1 {
+	margin-left: 1100px;
+	font-weight: 500;
+	color: rgb(151, 147, 85);
+	text-decoration: none;
+	padding: .1em 2em calc(.1em + 2px);
+	border-radius: 5px;
+	background: rgba(251, 253, 252, 0.486);
+	box-shadow: 0 -3px  rgba(169, 170, 128, 0.856) inset;
+  }
+  .button2 {
+	font-weight: 500;
+	color: rgb(151, 147, 85);
+	text-decoration: none;
+	padding: .1em 2em calc(.1em + 2px);
+	border-radius: 5px;
+	background: rgba(251, 253, 252, 0.397);
+	box-shadow: 0 -3px rgba(169, 170, 128, 0.856) inset;
+  }
+nav {
+	margin: 0 0 0 400px;
+	position: relative;
+	width: 590px;
+	height: 50px;
+	background-color: #ffffffa2;
+	border-radius: 10px;
+	font-size: 0;
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 18px;
+	z-index: 100;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgb(167, 148, 46);
+	cursor: pointer;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	z-index: 100;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+a:nth-child(4) {
+	width: 160px;
+}
+a:nth-child(5) {
+	width: 120px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+	background-color:rgb(249, 255, 199);
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 100px;
+	background-color: rgb(250, 255, 202);
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+	width: 100px;
+	left: 210px;
+	background-color: rgb(250, 255, 202);
+}
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+	width: 160px;
+	left: 310px;
+	background-color:rgb(250, 255, 202);
+}
+nav .start-contact, a:nth-child(5):hover~.animation {
+	width: 120px;
+	left: 470px;
+	background-color: rgb(250, 255, 202);
+}
+.menu
+{  
+	position: relative;
+	background: url(logo1.jpg) ;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	height: 121px;
+}
+.message{
+	margin-top: 53px;
+	color: rgb(138, 132, 45);
+	text-align:  center;
+	background: #f7f3d1bd;
+	font-size: 15px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.goods {
+    float: left;
+	margin: 0 25px 0 10px; 
+   }
+   .content img  {
+	margin-top: 10px;
+    border: 2px solid #6d6935;
+    padding: 13px; 
+    background: rgba(255, 254, 193, 0.712);
+    margin-right: 50px; 
+    margin-bottom: 8px;
+   }
+  
+.social{
+	position: absolute;
+	margin-top: 0px;
+	height: 50px;
+    font-size: 20px;
+    font-style: initial;
+    color: rgb(109, 105, 51);
+    background: rgba(255, 255, 255, 0.582);
+}
+.socialin {
+  margin-left: 930px;
+}
+.button {
+	margin-top: 50px;
+	margin-left: 685px;
+	position: absolute;
+	font-weight: 900;
+	color: rgb(124, 120, 65);
+	text-decoration: none;
+	padding: .8em 4em calc(.8em + 4px);
+	border-radius: 3px;
+	background: rgb(251, 253, 252);
+	box-shadow: 0 -3px rgba(192, 194, 193, 0.856) inset;
+	transition: 0.2s;
+  } 
+  .button:hover { background: rgb(247, 252, 218); }
+  .button:active {
+	background: rgb(236, 230, 135);
+	box-shadow: 0 3px rgb(231, 228, 144) inset;}
+	ul{
+		font-size: 19px;
+	}
+	.content{
+		background: rgba(255, 255, 255, 0.486);
+		height: 490px;
+	}
